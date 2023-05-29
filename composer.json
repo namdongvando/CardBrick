@@ -1,0 +1,30 @@
+{
+    "name": "namdongvando/cardbrick",
+    "type": "library",
+    "description": "Card Brick, Gạch Thẻ",
+    "keywords": [
+        "php",
+        "html",
+        "form"
+    ],
+    "homepage": "https://nguyenvando.net/CardBrick",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "namdong92@gmail.com",
+            "role": "Owner"
+        },
+        {
+            "email": "namdong92@gmail.com",
+            "role": "Committer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "CardBrick\\": "src/"
+        }
+    }
+}
