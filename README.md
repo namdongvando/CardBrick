@@ -6,7 +6,7 @@ PHP >= 7.4
 ```json
 {
     "require": {
-       "namdongvando/cardbrick": "^3.3"
+       "namdongvando/cardbrick": "^1.01"
     }
 }
 ```

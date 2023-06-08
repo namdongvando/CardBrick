@@ -83,6 +83,23 @@ class doithecaoonline
         return $http;
     }
 
+    public function GetPartner()
+    {
+        return self::$partner_key;
+    }
+
+    public function GetFeess()
+    {
+        $url = self::linkHost . "/api/partner/getfee";
+        $http = (new HttpClient())->Post(
+            $url,
+            [
+                "partner_key" => self::$partner_key,
+            ]
+        );
+        return $http;
+    }
+
 }
 
 
